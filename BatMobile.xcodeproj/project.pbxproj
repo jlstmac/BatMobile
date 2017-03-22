@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		E950E2F71E8233E200AA9A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E2F61E8233E200AA9A64 /* main.m */; };
 		E950E2FA1E8233E200AA9A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E2F91E8233E200AA9A64 /* AppDelegate.m */; };
-		E950E2FD1E8233E200AA9A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E2FC1E8233E200AA9A64 /* ViewController.m */; };
-		E950E3001E8233E200AA9A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E950E2FE1E8233E200AA9A64 /* Main.storyboard */; };
 		E950E3021E8233E200AA9A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E950E3011E8233E200AA9A64 /* Assets.xcassets */; };
 		E950E3051E8233E200AA9A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E950E3031E8233E200AA9A64 /* LaunchScreen.storyboard */; };
 		E950E3101E8233E200AA9A64 /* BatMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E30F1E8233E200AA9A64 /* BatMobileTests.m */; };
 		E950E31B1E8233E200AA9A64 /* BatMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E31A1E8233E200AA9A64 /* BatMobileUITests.m */; };
+		E950E32A1E82345400AA9A64 /* BMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E3291E82345400AA9A64 /* BMHomeViewController.m */; };
+		E950E3341E82626000AA9A64 /* BMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E3331E82626000AA9A64 /* BMViewController.m */; };
+		E950E3371E826D7A00AA9A64 /* BMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E3361E826D7A00AA9A64 /* BMNavigationController.m */; };
+		E950E33A1E82764600AA9A64 /* BMListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E3391E82764600AA9A64 /* BMListViewController.m */; };
+		E950E33D1E82774C00AA9A64 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E950E33C1E82774C00AA9A64 /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +42,6 @@
 		E950E2F61E8233E200AA9A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E950E2F81E8233E200AA9A64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E950E2F91E8233E200AA9A64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E950E2FB1E8233E200AA9A64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E950E2FC1E8233E200AA9A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E950E2FF1E8233E200AA9A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E950E3011E8233E200AA9A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E950E3041E8233E200AA9A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E950E3061E8233E200AA9A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,16 @@
 		E950E3161E8233E200AA9A64 /* BatMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E950E31A1E8233E200AA9A64 /* BatMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatMobileUITests.m; sourceTree = "<group>"; };
 		E950E31C1E8233E200AA9A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E950E3281E82345400AA9A64 /* BMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMHomeViewController.h; sourceTree = "<group>"; };
+		E950E3291E82345400AA9A64 /* BMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMHomeViewController.m; sourceTree = "<group>"; };
+		E950E32B1E82355F00AA9A64 /* BMCommentDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMCommentDef.h; sourceTree = "<group>"; };
+		E950E3321E82626000AA9A64 /* BMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMViewController.h; sourceTree = "<group>"; };
+		E950E3331E82626000AA9A64 /* BMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMViewController.m; sourceTree = "<group>"; };
+		E950E3351E826D7A00AA9A64 /* BMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMNavigationController.h; sourceTree = "<group>"; };
+		E950E3361E826D7A00AA9A64 /* BMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNavigationController.m; sourceTree = "<group>"; };
+		E950E3381E82764600AA9A64 /* BMListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMListViewController.h; sourceTree = "<group>"; };
+		E950E3391E82764600AA9A64 /* BMListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMListViewController.m; sourceTree = "<group>"; };
+		E950E33C1E82774C00AA9A64 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		E950E2E91E8233E200AA9A64 = {
 			isa = PBXGroup;
 			children = (
+				E950E33C1E82774C00AA9A64 /* Config.plist */,
 				E950E2F41E8233E200AA9A64 /* BatMobile */,
 				E950E30E1E8233E200AA9A64 /* BatMobileTests */,
 				E950E3191E8233E200AA9A64 /* BatMobileUITests */,
@@ -103,9 +114,8 @@
 			children = (
 				E950E2F81E8233E200AA9A64 /* AppDelegate.h */,
 				E950E2F91E8233E200AA9A64 /* AppDelegate.m */,
-				E950E2FB1E8233E200AA9A64 /* ViewController.h */,
-				E950E2FC1E8233E200AA9A64 /* ViewController.m */,
-				E950E2FE1E8233E200AA9A64 /* Main.storyboard */,
+				E950E33B1E8276EC00AA9A64 /* ViewController */,
+				E950E32B1E82355F00AA9A64 /* BMCommentDef.h */,
 				E950E3011E8233E200AA9A64 /* Assets.xcassets */,
 				E950E3031E8233E200AA9A64 /* LaunchScreen.storyboard */,
 				E950E3061E8233E200AA9A64 /* Info.plist */,
@@ -138,6 +148,21 @@
 				E950E31C1E8233E200AA9A64 /* Info.plist */,
 			);
 			path = BatMobileUITests;
+			sourceTree = "<group>";
+		};
+		E950E33B1E8276EC00AA9A64 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E950E3351E826D7A00AA9A64 /* BMNavigationController.h */,
+				E950E3361E826D7A00AA9A64 /* BMNavigationController.m */,
+				E950E3321E82626000AA9A64 /* BMViewController.h */,
+				E950E3331E82626000AA9A64 /* BMViewController.m */,
+				E950E3381E82764600AA9A64 /* BMListViewController.h */,
+				E950E3391E82764600AA9A64 /* BMListViewController.m */,
+				E950E3281E82345400AA9A64 /* BMHomeViewController.h */,
+				E950E3291E82345400AA9A64 /* BMHomeViewController.m */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E950E3051E8233E200AA9A64 /* LaunchScreen.storyboard in Resources */,
+				E950E33D1E82774C00AA9A64 /* Config.plist in Resources */,
 				E950E3021E8233E200AA9A64 /* Assets.xcassets in Resources */,
-				E950E3001E8233E200AA9A64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E950E2FD1E8233E200AA9A64 /* ViewController.m in Sources */,
+				E950E3371E826D7A00AA9A64 /* BMNavigationController.m in Sources */,
+				E950E33A1E82764600AA9A64 /* BMListViewController.m in Sources */,
+				E950E32A1E82345400AA9A64 /* BMHomeViewController.m in Sources */,
 				E950E2FA1E8233E200AA9A64 /* AppDelegate.m in Sources */,
 				E950E2F71E8233E200AA9A64 /* main.m in Sources */,
+				E950E3341E82626000AA9A64 /* BMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +342,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E950E2FE1E8233E200AA9A64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E950E2FF1E8233E200AA9A64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E950E3031E8233E200AA9A64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

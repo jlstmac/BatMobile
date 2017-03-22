@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BMNavigationController.h
 //  BatMobile
 //
 //  Created by jianglinshan@qiyi.com on 2017/3/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BMNavigationController : UINavigationController
 
 @end
-

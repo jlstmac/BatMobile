@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BMHomeViewController.h"
+#import "BMNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    BMHomeViewController* home = BMHomeViewController.new;
+    BMNavigationController* rootNav = [[BMNavigationController alloc] initWithRootViewController:home];
+    self.window.rootViewController = rootNav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
