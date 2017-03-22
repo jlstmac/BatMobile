@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>list</key>
+	<array>
+		<string></string>
+	</array>
 	<key>Tag My Mobile</key>
 	<dict>
 		<key>PageList</key>
@@ -12,6 +16,8 @@
 		<key>PageTitle</key>
 		<string>Step1:Choose an Advertiser</string>
 	</dict>
+	<key>Kind</key>
+	<integer>0</integer>
 	<key>Show Ads</key>
 	<dict/>
 </dict>

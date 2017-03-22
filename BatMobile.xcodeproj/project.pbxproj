@@ -17,7 +17,7 @@
 		E950E3341E82626000AA9A64 /* BMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E3331E82626000AA9A64 /* BMViewController.m */; };
 		E950E3371E826D7A00AA9A64 /* BMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E3361E826D7A00AA9A64 /* BMNavigationController.m */; };
 		E950E33A1E82764600AA9A64 /* BMListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E3391E82764600AA9A64 /* BMListViewController.m */; };
-		E950E33D1E82774C00AA9A64 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E950E33C1E82774C00AA9A64 /* Config.plist */; };
+		E950E33D1E82774C00AA9A64 /* Home_Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E950E33C1E82774C00AA9A64 /* Home_Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		E950E3361E826D7A00AA9A64 /* BMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMNavigationController.m; sourceTree = "<group>"; };
 		E950E3381E82764600AA9A64 /* BMListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMListViewController.h; sourceTree = "<group>"; };
 		E950E3391E82764600AA9A64 /* BMListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMListViewController.m; sourceTree = "<group>"; };
-		E950E33C1E82774C00AA9A64 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		E950E33C1E82774C00AA9A64 /* Home_Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Home_Config.plist; path = ../Home_Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,6 @@
 		E950E2E91E8233E200AA9A64 = {
 			isa = PBXGroup;
 			children = (
-				E950E33C1E82774C00AA9A64 /* Config.plist */,
 				E950E2F41E8233E200AA9A64 /* BatMobile */,
 				E950E30E1E8233E200AA9A64 /* BatMobileTests */,
 				E950E3191E8233E200AA9A64 /* BatMobileUITests */,
@@ -112,6 +111,7 @@
 		E950E2F41E8233E200AA9A64 /* BatMobile */ = {
 			isa = PBXGroup;
 			children = (
+				E950E33E1E82803E00AA9A64 /* Configs */,
 				E950E2F81E8233E200AA9A64 /* AppDelegate.h */,
 				E950E2F91E8233E200AA9A64 /* AppDelegate.m */,
 				E950E33B1E8276EC00AA9A64 /* ViewController */,
@@ -163,6 +163,14 @@
 				E950E3291E82345400AA9A64 /* BMHomeViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E950E33E1E82803E00AA9A64 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				E950E33C1E82774C00AA9A64 /* Home_Config.plist */,
+			);
+			name = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E950E3051E8233E200AA9A64 /* LaunchScreen.storyboard in Resources */,
-				E950E33D1E82774C00AA9A64 /* Config.plist in Resources */,
+				E950E33D1E82774C00AA9A64 /* Home_Config.plist in Resources */,
 				E950E3021E8233E200AA9A64 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
