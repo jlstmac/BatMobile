@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E950E2F71E8233E200AA9A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E2F61E8233E200AA9A64 /* main.m */; };
+		E950E2FA1E8233E200AA9A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E2F91E8233E200AA9A64 /* AppDelegate.m */; };
+		E950E2FD1E8233E200AA9A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E2FC1E8233E200AA9A64 /* ViewController.m */; };
+		E950E3001E8233E200AA9A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E950E2FE1E8233E200AA9A64 /* Main.storyboard */; };
+		E950E3021E8233E200AA9A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E950E3011E8233E200AA9A64 /* Assets.xcassets */; };
+		E950E3051E8233E200AA9A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E950E3031E8233E200AA9A64 /* LaunchScreen.storyboard */; };
+		E950E3101E8233E200AA9A64 /* BatMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E30F1E8233E200AA9A64 /* BatMobileTests.m */; };
+		E950E31B1E8233E200AA9A64 /* BatMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E31A1E8233E200AA9A64 /* BatMobileUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E950E30C1E8233E200AA9A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E950E2EA1E8233E200AA9A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E950E2F11E8233E200AA9A64;
+			remoteInfo = BatMobile;
+		};
+		E950E3171E8233E200AA9A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E950E2EA1E8233E200AA9A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E950E2F11E8233E200AA9A64;
+			remoteInfo = BatMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E950E2F21E8233E200AA9A64 /* BatMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E950E2F61E8233E200AA9A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E950E2F81E8233E200AA9A64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E950E2F91E8233E200AA9A64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E950E2FB1E8233E200AA9A64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E950E2FC1E8233E200AA9A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E950E2FF1E8233E200AA9A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E950E3011E8233E200AA9A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E950E3041E8233E200AA9A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E950E3061E8233E200AA9A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E950E30B1E8233E200AA9A64 /* BatMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E950E30F1E8233E200AA9A64 /* BatMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatMobileTests.m; sourceTree = "<group>"; };
+		E950E3111E8233E200AA9A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E950E3161E8233E200AA9A64 /* BatMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E950E31A1E8233E200AA9A64 /* BatMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatMobileUITests.m; sourceTree = "<group>"; };
+		E950E31C1E8233E200AA9A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E950E2EF1E8233E200AA9A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E950E3081E8233E200AA9A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E950E3131E8233E200AA9A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E950E2E91E8233E200AA9A64 = {
+			isa = PBXGroup;
+			children = (
+				E950E2F41E8233E200AA9A64 /* BatMobile */,
+				E950E30E1E8233E200AA9A64 /* BatMobileTests */,
+				E950E3191E8233E200AA9A64 /* BatMobileUITests */,
+				E950E2F31E8233E200AA9A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E950E2F31E8233E200AA9A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E950E2F21E8233E200AA9A64 /* BatMobile.app */,
+				E950E30B1E8233E200AA9A64 /* BatMobileTests.xctest */,
+				E950E3161E8233E200AA9A64 /* BatMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E950E2F41E8233E200AA9A64 /* BatMobile */ = {
+			isa = PBXGroup;
+			children = (
+				E950E2F81E8233E200AA9A64 /* AppDelegate.h */,
+				E950E2F91E8233E200AA9A64 /* AppDelegate.m */,
+				E950E2FB1E8233E200AA9A64 /* ViewController.h */,
+				E950E2FC1E8233E200AA9A64 /* ViewController.m */,
+				E950E2FE1E8233E200AA9A64 /* Main.storyboard */,
+				E950E3011E8233E200AA9A64 /* Assets.xcassets */,
+				E950E3031E8233E200AA9A64 /* LaunchScreen.storyboard */,
+				E950E3061E8233E200AA9A64 /* Info.plist */,
+				E950E2F51E8233E200AA9A64 /* Supporting Files */,
+			);
+			path = BatMobile;
+			sourceTree = "<group>";
+		};
+		E950E2F51E8233E200AA9A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E950E2F61E8233E200AA9A64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E950E30E1E8233E200AA9A64 /* BatMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				E950E30F1E8233E200AA9A64 /* BatMobileTests.m */,
+				E950E3111E8233E200AA9A64 /* Info.plist */,
+			);
+			path = BatMobileTests;
+			sourceTree = "<group>";
+		};
+		E950E3191E8233E200AA9A64 /* BatMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E950E31A1E8233E200AA9A64 /* BatMobileUITests.m */,
+				E950E31C1E8233E200AA9A64 /* Info.plist */,
+			);
+			path = BatMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E950E2F11E8233E200AA9A64 /* BatMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E950E31F1E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobile" */;
+			buildPhases = (
+				E950E2EE1E8233E200AA9A64 /* Sources */,
+				E950E2EF1E8233E200AA9A64 /* Frameworks */,
+				E950E2F01E8233E200AA9A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatMobile;
+			productName = BatMobile;
+			productReference = E950E2F21E8233E200AA9A64 /* BatMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E950E30A1E8233E200AA9A64 /* BatMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E950E3221E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobileTests" */;
+			buildPhases = (
+				E950E3071E8233E200AA9A64 /* Sources */,
+				E950E3081E8233E200AA9A64 /* Frameworks */,
+				E950E3091E8233E200AA9A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E950E30D1E8233E200AA9A64 /* PBXTargetDependency */,
+			);
+			name = BatMobileTests;
+			productName = BatMobileTests;
+			productReference = E950E30B1E8233E200AA9A64 /* BatMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E950E3151E8233E200AA9A64 /* BatMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E950E3251E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobileUITests" */;
+			buildPhases = (
+				E950E3121E8233E200AA9A64 /* Sources */,
+				E950E3131E8233E200AA9A64 /* Frameworks */,
+				E950E3141E8233E200AA9A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E950E3181E8233E200AA9A64 /* PBXTargetDependency */,
+			);
+			name = BatMobileUITests;
+			productName = BatMobileUITests;
+			productReference = E950E3161E8233E200AA9A64 /* BatMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E950E2EA1E8233E200AA9A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "jlstmac@gmail.com";
+				TargetAttributes = {
+					E950E2F11E8233E200AA9A64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z48VZSQV9M;
+						ProvisioningStyle = Automatic;
+					};
+					E950E30A1E8233E200AA9A64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z48VZSQV9M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E950E2F11E8233E200AA9A64;
+					};
+					E950E3151E8233E200AA9A64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z48VZSQV9M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E950E2F11E8233E200AA9A64;
+					};
+				};
+			};
+			buildConfigurationList = E950E2ED1E8233E200AA9A64 /* Build configuration list for PBXProject "BatMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E950E2E91E8233E200AA9A64;
+			productRefGroup = E950E2F31E8233E200AA9A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E950E2F11E8233E200AA9A64 /* BatMobile */,
+				E950E30A1E8233E200AA9A64 /* BatMobileTests */,
+				E950E3151E8233E200AA9A64 /* BatMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E950E2F01E8233E200AA9A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E950E3051E8233E200AA9A64 /* LaunchScreen.storyboard in Resources */,
+				E950E3021E8233E200AA9A64 /* Assets.xcassets in Resources */,
+				E950E3001E8233E200AA9A64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E950E3091E8233E200AA9A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E950E3141E8233E200AA9A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E950E2EE1E8233E200AA9A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E950E2FD1E8233E200AA9A64 /* ViewController.m in Sources */,
+				E950E2FA1E8233E200AA9A64 /* AppDelegate.m in Sources */,
+				E950E2F71E8233E200AA9A64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E950E3071E8233E200AA9A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E950E3101E8233E200AA9A64 /* BatMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E950E3121E8233E200AA9A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E950E31B1E8233E200AA9A64 /* BatMobileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E950E30D1E8233E200AA9A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E950E2F11E8233E200AA9A64 /* BatMobile */;
+			targetProxy = E950E30C1E8233E200AA9A64 /* PBXContainerItemProxy */;
+		};
+		E950E3181E8233E200AA9A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E950E2F11E8233E200AA9A64 /* BatMobile */;
+			targetProxy = E950E3171E8233E200AA9A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E950E2FE1E8233E200AA9A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E950E2FF1E8233E200AA9A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E950E3031E8233E200AA9A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E950E3041E8233E200AA9A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E950E31D1E8233E200AA9A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E950E31E1E8233E200AA9A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E950E3201E8233E200AA9A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z48VZSQV9M;
+				INFOPLIST_FILE = BatMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.BatMobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E950E3211E8233E200AA9A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z48VZSQV9M;
+				INFOPLIST_FILE = BatMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.BatMobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E950E3231E8233E200AA9A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z48VZSQV9M;
+				INFOPLIST_FILE = BatMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.BatMobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatMobile.app/BatMobile";
+			};
+			name = Debug;
+		};
+		E950E3241E8233E200AA9A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z48VZSQV9M;
+				INFOPLIST_FILE = BatMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.BatMobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatMobile.app/BatMobile";
+			};
+			name = Release;
+		};
+		E950E3261E8233E200AA9A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z48VZSQV9M;
+				INFOPLIST_FILE = BatMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.BatMobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BatMobile;
+			};
+			name = Debug;
+		};
+		E950E3271E8233E200AA9A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z48VZSQV9M;
+				INFOPLIST_FILE = BatMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jlstmac-gmail.com.BatMobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BatMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E950E2ED1E8233E200AA9A64 /* Build configuration list for PBXProject "BatMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E950E31D1E8233E200AA9A64 /* Debug */,
+				E950E31E1E8233E200AA9A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E950E31F1E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E950E3201E8233E200AA9A64 /* Debug */,
+				E950E3211E8233E200AA9A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E950E3221E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E950E3231E8233E200AA9A64 /* Debug */,
+				E950E3241E8233E200AA9A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E950E3251E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E950E3261E8233E200AA9A64 /* Debug */,
+				E950E3271E8233E200AA9A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E950E2EA1E8233E200AA9A64 /* Project object */;
+}
