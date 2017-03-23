@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501060204EE9D6FD71737F83 /* libPods-BatMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F340678F7D9D89BBF058FA /* libPods-BatMobileTests.a */; };
+		5C14CC819590ADFF594D6AF1 /* libPods-BatMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32382BEA0E59890E204CD49C /* libPods-BatMobile.a */; };
+		9D593B9AC8CEDFCEAFB08CD5 /* libPods-BatMobileUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53899200FD0ABB802BC54379 /* libPods-BatMobileUITests.a */; };
 		E950E2F71E8233E200AA9A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E2F61E8233E200AA9A64 /* main.m */; };
 		E950E2FA1E8233E200AA9A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E950E2F91E8233E200AA9A64 /* AppDelegate.m */; };
 		E950E3021E8233E200AA9A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E950E3011E8233E200AA9A64 /* Assets.xcassets */; };
@@ -38,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		168D3B192D1A03F5D17C9372 /* Pods-BatMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatMobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BatMobileUITests/Pods-BatMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21F23A502BE93EA9DAF4378F /* Pods-BatMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BatMobileTests/Pods-BatMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		28F340678F7D9D89BBF058FA /* libPods-BatMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BatMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32382BEA0E59890E204CD49C /* libPods-BatMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BatMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53899200FD0ABB802BC54379 /* libPods-BatMobileUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BatMobileUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79523316C11408558D40B865 /* Pods-BatMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-BatMobile/Pods-BatMobile.release.xcconfig"; sourceTree = "<group>"; };
+		9BC1F2B45E4D749D7EF87F59 /* Pods-BatMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BatMobile/Pods-BatMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		DEEA3FEA2D7D5D00416EF399 /* Pods-BatMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BatMobileTests/Pods-BatMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E950E2F21E8233E200AA9A64 /* BatMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E950E2F61E8233E200AA9A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E950E2F81E8233E200AA9A64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +72,7 @@
 		E950E3381E82764600AA9A64 /* BMListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMListViewController.h; sourceTree = "<group>"; };
 		E950E3391E82764600AA9A64 /* BMListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMListViewController.m; sourceTree = "<group>"; };
 		E950E33C1E82774C00AA9A64 /* Home_Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Home_Config.plist; path = ../Home_Config.plist; sourceTree = "<group>"; };
+		FD0A55C2AC58EF579CA61899 /* Pods-BatMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatMobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BatMobileUITests/Pods-BatMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C14CC819590ADFF594D6AF1 /* libPods-BatMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501060204EE9D6FD71737F83 /* libPods-BatMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D593B9AC8CEDFCEAFB08CD5 /* libPods-BatMobileUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0127AA87B8D1B2751CE84488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BC1F2B45E4D749D7EF87F59 /* Pods-BatMobile.debug.xcconfig */,
+				79523316C11408558D40B865 /* Pods-BatMobile.release.xcconfig */,
+				DEEA3FEA2D7D5D00416EF399 /* Pods-BatMobileTests.debug.xcconfig */,
+				21F23A502BE93EA9DAF4378F /* Pods-BatMobileTests.release.xcconfig */,
+				FD0A55C2AC58EF579CA61899 /* Pods-BatMobileUITests.debug.xcconfig */,
+				168D3B192D1A03F5D17C9372 /* Pods-BatMobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7A4D64163AE6833E50077E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32382BEA0E59890E204CD49C /* libPods-BatMobile.a */,
+				28F340678F7D9D89BBF058FA /* libPods-BatMobileTests.a */,
+				53899200FD0ABB802BC54379 /* libPods-BatMobileUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E950E2E91E8233E200AA9A64 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +133,8 @@
 				E950E30E1E8233E200AA9A64 /* BatMobileTests */,
 				E950E3191E8233E200AA9A64 /* BatMobileUITests */,
 				E950E2F31E8233E200AA9A64 /* Products */,
+				0127AA87B8D1B2751CE84488 /* Pods */,
+				A7A4D64163AE6833E50077E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E950E31F1E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobile" */;
 			buildPhases = (
+				B1D6BABD875CC58215D2300C /* [CP] Check Pods Manifest.lock */,
 				E950E2EE1E8233E200AA9A64 /* Sources */,
 				E950E2EF1E8233E200AA9A64 /* Frameworks */,
 				E950E2F01E8233E200AA9A64 /* Resources */,
+				5AB788B374B6ADBD6062D0E6 /* [CP] Embed Pods Frameworks */,
+				DDAD398626F9A92BD1ABEBBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E950E3221E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobileTests" */;
 			buildPhases = (
+				8C4A78420692A5E6AAABAEFD /* [CP] Check Pods Manifest.lock */,
 				E950E3071E8233E200AA9A64 /* Sources */,
 				E950E3081E8233E200AA9A64 /* Frameworks */,
 				E950E3091E8233E200AA9A64 /* Resources */,
+				EFBE1B49C8D0F2470FE4689F /* [CP] Embed Pods Frameworks */,
+				5F7F52379778A900FC4818F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E950E3251E8233E200AA9A64 /* Build configuration list for PBXNativeTarget "BatMobileUITests" */;
 			buildPhases = (
+				FBF272E99275DDAC85003448 /* [CP] Check Pods Manifest.lock */,
 				E950E3121E8233E200AA9A64 /* Sources */,
 				E950E3131E8233E200AA9A64 /* Frameworks */,
 				E950E3141E8233E200AA9A64 /* Resources */,
+				EACD58F60339B2FC59BF53B6 /* [CP] Embed Pods Frameworks */,
+				10877C51552F272755790489 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,6 +352,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10877C51552F272755790489 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatMobileUITests/Pods-BatMobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB788B374B6ADBD6062D0E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatMobile/Pods-BatMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F7F52379778A900FC4818F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatMobileTests/Pods-BatMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4A78420692A5E6AAABAEFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D6BABD875CC58215D2300C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDAD398626F9A92BD1ABEBBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatMobile/Pods-BatMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACD58F60339B2FC59BF53B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatMobileUITests/Pods-BatMobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBE1B49C8D0F2470FE4689F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatMobileTests/Pods-BatMobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF272E99275DDAC85003448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E950E2EE1E8233E200AA9A64 /* Sources */ = {
@@ -453,6 +640,7 @@
 		};
 		E950E3201E8233E200AA9A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC1F2B45E4D749D7EF87F59 /* Pods-BatMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z48VZSQV9M;
@@ -465,6 +653,7 @@
 		};
 		E950E3211E8233E200AA9A64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79523316C11408558D40B865 /* Pods-BatMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z48VZSQV9M;
@@ -477,6 +666,7 @@
 		};
 		E950E3231E8233E200AA9A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEA3FEA2D7D5D00416EF399 /* Pods-BatMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Z48VZSQV9M;
@@ -490,6 +680,7 @@
 		};
 		E950E3241E8233E200AA9A64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F23A502BE93EA9DAF4378F /* Pods-BatMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = Z48VZSQV9M;
@@ -503,6 +694,7 @@
 		};
 		E950E3261E8233E200AA9A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0A55C2AC58EF579CA61899 /* Pods-BatMobileUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = Z48VZSQV9M;
 				INFOPLIST_FILE = BatMobileUITests/Info.plist;
@@ -515,6 +707,7 @@
 		};
 		E950E3271E8233E200AA9A64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 168D3B192D1A03F5D17C9372 /* Pods-BatMobileUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = Z48VZSQV9M;
 				INFOPLIST_FILE = BatMobileUITests/Info.plist;
